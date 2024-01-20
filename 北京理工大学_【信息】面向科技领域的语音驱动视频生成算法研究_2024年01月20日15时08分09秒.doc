@@ -1,0 +1,1058 @@
+﻿<!DOCTYPE html>
+<html xmlns:o='urn:schemas-microsoft-com:office:office'
+      xmlns:w='urn:schemas-microsoft-com:office:word'
+      xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+    <meta http-equiv="Content-Type" content="application/msword; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北京理工大学_【信息】面向科技领域的语音驱动视频生成算法研究_2024年01月20日15时08分09秒</title>
+    <!--[if gte mso 9]>
+    <xml>
+    <w:WordDocument>
+    <w:View>Print</w:View>
+    <w:Zoom>100</w:Zoom>
+    <w:DoNotOptimizeForBrowser/>
+    <w:DisplayBackgroundShape/>
+    </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style type="text/css">
+        body.c-word--body {
+            padding: 0;
+            margin: 0;
+            font-family: "Microsoft YaHei", SimHei, SimSun, "Times New Roman", Georgia, Serif;
+        }
+
+        .c-word--empty {
+            text-align: center;
+            font-size: 24px;
+            color: #ddd;
+            padding: 60px 20px;
+        }
+
+        .c-word--title {
+            padding: 9pt 1pt;
+            margin: 0;
+            text-align: center;
+        }
+
+        table.table {
+            width: 100%;
+            margin: 3pt auto;
+            border-collapse: collapse;
+            border-spacing: 1pt;
+        }
+
+        table.table-border {
+            border-collapse: collapse;
+        }
+
+            table.table-border tr th {
+                border: solid windowtext 1pt;
+                border-color: #000;
+                border-width: 1pt;
+            }
+
+            table.table-border tr td {
+                border: solid windowtext 1pt;
+                border-color: #000;
+                border-width: 1pt;
+            }
+
+        .text-center {
+            text-align: center;
+        }
+    </style>
+    
+    <link href="http://cxcy.bit.edu.cn/xm/assets/dist/css/Areas/Item/Declare/ExportWord.css" rel="stylesheet" />
+    <link href="http://cxcy.bit.edu.cn/xm/assets/dist/css/tools/summernote-custom.css" rel="stylesheet" />
+
+    
+    <style>
+    p.MsoFooter, li.MsoFooter, div.MsoFooter {
+        margin: 0in;
+        margin-bottom: 0.001pt;
+        mso-pagination: widow-orphan;
+        tab-stops: center 3.0in right 6.0in;
+        font-size: 12.0pt;
+        font-family: 等线, 宋体,华文细黑,'Microsoft YaHei',仿宋, 黑体;
+    }
+
+    <!-- /* Style Definitions */
+    @page Section1 {
+        size: 8.5in 11.0in;
+        margin: 1.0in 1.0in 1.0in 1.0in;
+        mso-header-margin: 0.5in;
+        mso-footer-margin: 0.5in;
+        mso-title-page: yes;
+        mso-header: page-info-container--header;
+        mso-even-header: page-info-container--header-;
+        mso-footer: page-info-container--footer;
+        mso-first-header: page-info-container--header-;
+        mso-first-footer: page-info-container--footer;
+        mso-paper-source: 0;
+    }
+
+    div.Section1 {
+        page: Section1;
+    }
+
+    table#page-info-container {
+        margin: 0in 0in 0in 900in;
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+    -->
+</style>
+
+</head>
+<body class="c-word--body">
+    <div>
+        
+
+
+        <div class="Section1">
+            <div class="single-page">
+                <div class="word-logo">
+                </div>
+
+                    <div class="word-title1">
+                        <div>北京理工大学大学生创新训练项目计划申请书</div>
+                    </div>
+
+                <div class="word-userinfo-container" style="text-align:center;">
+                    <table class="word-userinfo">
+                        <tbody>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">项目编号</td>
+                                <td colspan="7" class="c-cell-value">
+                                    BIT2023XX497
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">项目名称</td>
+                                <td colspan="7" class="c-cell-value">
+                                    【信息】面向科技领域的语音驱动视频生成算法研究
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">项目负责人</td>
+                                <td colspan="3" class="c-cell-value">
+                                    崔琛浩
+                                </td>
+                                <td style="width:20%;" class="c-cell-title">联系电话</td>
+                                <td colspan="3" class="c-cell-value">
+                                    13103456868
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">所在学院</td>
+                                <td colspan="7" class="c-cell-value">
+                                    计算机学院
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">学号</td>
+                                <td colspan="3" class="c-cell-value">
+                                    1120221572
+                                </td>
+                                <td style="width:20%;" class="c-cell-title">专业班级</td>
+                                <td colspan="3" class="c-cell-value">
+                                    软件工程
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">指导教师</td>
+                                <td colspan="7" class="c-cell-value">
+                                    毛先领
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">E-mail</td>
+                                <td colspan="7" class="c-cell-value">
+                                    djxx208cch@163.com
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">申请日期</td>
+                                <td colspan="7" class="c-cell-value">
+                                    2023年12月22日
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:22%;" class="c-cell-title">项目期限</td>
+                                <td colspan="7" class="c-cell-value">
+                                    一年期
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div style="margin:80pt 0 6pt;font-family:黑体,华文细黑;font-size:15.0pt;text-align:center;">
+                    北京理工大学 教务处
+                </div>
+            </div>
+            <br clear="all" style="page-break-before:always;" />
+            <div class="single-page">
+                <div class="word-abstract">
+                    <div class="word-abstract-title" style="margin-top:32pt;margin-bottom:32pt;font-weight:600;text-align:center;font-size:18.0pt;font-family:宋体;">
+                        填写说明
+                    </div>
+                    <div class="word-abstract-content" style="margin-top:32pt;">
+                        <ol style="font-family:仿宋,宋体;font-size:15pt;line-height:32pt;">
+                            <li>本申请书所列各项内容均须实事求是，认真填写，表达明确严谨，简明扼要。</li>
+                            <li>申请人可以是个人，也可为创新团队，首页只填负责人。“项目编号”一栏不填。</li>
+                            <li>本申请书为大16开本（A4），左侧装订成册。可网上下载、自行复印或加页，但格式、内容、大小均须与原件一致。</li>
+                                <li>负责人所在学院认真审核, 经初评和答辩，签署意见后，将申请书（一式两份）报送xx大学项目管理办公室。</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <br clear="all" style="page-break-before:always;" />
+            <div class="single-page">
+                <!--  一、	基本情况 开始-->
+                <div class="c-base-info">
+                    <h4 class="c-base-info-title">
+                        一、	基本情况
+                    </h4>
+                    <div class="c-base-info-content">
+                        <table class="c-base-info-table">
+                            <tbody>
+                                <tr>
+                                    <td style="width:10%;" class="c-cell-title">项目名称</td>
+                                    <td colspan="9" class="c-cell-value">
+                                        【信息】面向科技领域的语音驱动视频生成算法研究
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:10%;" class="c-cell-title">所属学科</td>
+                                    <td colspan="9" class="c-cell-value">
+                                        <div class="c-cell-content">
+                                            <span>
+                                                <span class="c-title">学科一级类：</span>
+                                                <span class="c-value">工学</span>
+                                            </span>
+                                            <span>&nbsp;</span>
+                                            <span>
+                                                <span class="c-title">学科二级类：</span>
+                                                <span class="c-value">计算机类</span>
+                                            </span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:10%;" class="c-cell-title">项目来源</td>
+                                    <td colspan="9" class="c-cell-value">
+                                        <div class="c-cell-content" style="vertical-align:middle;">
+                                                        <div>
+                                                            □
+                                                            <span>A、学生自主选题，来源于自己对课题的长期积累与兴趣</span>
+                                                        </div>
+                                                        <div>
+                                                            ■
+                                                            <span>B、学生来源于教师科研项目选题</span>
+                                                        </div>
+                                                        <div>
+                                                            □
+                                                            <span>C、学生承担社会、企业委托项目选题</span>
+                                                        </div>
+                                                        <div>
+                                                            □
+                                                            <span>D、拔尖专项</span>
+                                                        </div>
+                                                        <div>
+                                                            □
+                                                            <span>E、竞赛专项</span>
+                                                        </div>
+                                                        <div>
+                                                            □
+                                                            <span>F、研修专项</span>
+                                                        </div>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:10%;" class="c-cell-title">申请金额</td>
+                                    <td class="c-cell-value">
+                                                <span>3000.00</span>
+
+                                        <span> 元</span>
+                                    </td>
+                                    <td class="c-cell-title">项目期限</td>
+                                    <td class="c-cell-value">
+                                        一年期
+                                    </td>
+                                    <td class="c-cell-title" colspan="2">拟申报项目级别</td>
+                                    <td class="c-cell-value" colspan="4">
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:10%;" class="c-cell-title">负责人</td>
+                                    <td class="c-cell-value" colspan="1" style="width:10%;">
+                                        崔琛浩
+                                    </td>
+                                    <td style="width:10%;" class="c-cell-title">性别</td>
+                                    <td class="c-cell-value" colspan="1" style="width:5%;">
+                                        女
+                                    </td>
+                                    <td style="width:10%;" class="c-cell-title">民族</td>
+                                    <td class="c-cell-value" colspan="1" style="width:15%;">
+                                        汉族
+                                    </td>
+                                    <td style="width:10%;" class="c-cell-title">出生年月</td>
+                                    <td class="c-cell-value" colspan="3" style="width:50%;text-align:center;">
+                                                <span>2004年6月</span>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:10%;" class="c-cell-title">学号</td>
+                                    <td colspan="1" class="c-cell-value" style="width:20%;">
+                                        1120221572
+                                    </td>
+                                    <td style="width:5%;" class="c-cell-title">联系电话</td>
+                                    <td colspan="7" class="c-cell-value" style="width:65%;">
+                                        <div class="c-cell-content">
+                                            <span>
+                                                <span class="c-title">宅：</span>
+                                                <span class="c-value"></span>
+                                            </span>
+                                            <span>
+                                                <span class="c-title">手机：</span>
+                                                <span class="c-value">13103456868</span>
+                                            </span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                            <tr>
+                                                <td style="width:10%;" class="c-cell-title">指导教师</td>
+                                                <td colspan="1" class="c-cell-value" style="width:20%;">
+                                                    毛先领
+                                                </td>
+                                                <td style="width:5%;" class="c-cell-title">联系电话</td>
+                                                <td colspan="7" class="c-cell-value" style="width:65%;">
+                                                    <div class="c-cell-content">
+                                                        <span>
+                                                            <span class="c-title">宅：</span>
+                                                            <span class="c-value"></span>
+                                                        </span>
+                                                        <span>
+                                                            <span class="c-title">手机：</span>
+                                                            <span class="c-value">15120054899</span>
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                <tr>
+                                    <td style="width:10%;" class="c-cell-title" colspan="2">项目简介</td>
+                                    <td class="c-cell-value" colspan="8" style="width:90%;">
+                                        <div class="c-cell-content">
+                                            本项目在毛先领老师的指导下，由北京理工大学睿信书院学生牟星宇、史立彬、董顺心、洪子翔、崔琛浩共同完成。我们的项目将计算机技术应用于学术论文阅读和传播领域。具体而言，我们的项目旨在开发一种能够在用户阅读论文时为作者生成视频，并模拟作者的音频为用户朗读、讲解论文的系统。这项技术的应用有助于提升学术论文的传播效果。通过将作者的头像和声音与论文内容相结合，用户可以更加直观地理解和消化论文内容。这一功能对于学术交流和知识普及起到了积极的促进作用。我们的项目旨在为用户提供更加便捷、直观的学术论文阅读体验，以推动学术研究和知识传播的进步。
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:10%;" class="c-cell-title" colspan="2">负责人曾经参与科研的情况</td>
+                                    <td class="c-cell-value" colspan="8" style="width:90%;">
+                                        <div class="c-cell-content">
+                                            作为成员参加2022年校级大创项目：基于元学习的低资源体音数据挖掘研究
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:10%;" class="c-cell-title" colspan="2">指导教师承担科研课题情况</td>
+                                    <td class="c-cell-value" colspan="8" style="width:90%;">
+                                        <div class="c-cell-content">
+                                            主持国家重点研发计划课题、国家自科基金面上项目等国家级项目
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:10%;" class="c-cell-title" colspan="2">指导教师对本项目的支持情况</td>
+                                    <td class="c-cell-value" colspan="8" style="width:90%;">
+                                        <div class="c-cell-content">
+                                            支持情况：课题选题、研究过程全面支持
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="width:5%;" class="c-cell-title" rowspan="6">项目组主要成员</td>
+                                    <td class="c-cell-title" style="width:5%;">姓名</td>
+                                    <td class="c-cell-title" style="width:13%;">学号</td>
+                                    <td class="c-cell-title" style="width:13%;">学院</td>
+                                    <td class="c-cell-title" style="width:13%;">专业班级</td>
+                                    <td class="c-cell-title" style="width:13%;">联系电话</td>
+                                    <td class="c-cell-title" colspan="5" style="width:43%;">项目分工</td>
+                                </tr>
+                                        <tr class="c-liststudent-tr">
+                                            <td class="c-cell-value">
+                                                崔琛浩
+                                            </td>
+                                            <td class="c-cell-value">
+                                                1120221572
+                                            </td>
+                                            <td class="c-cell-value">
+                                                计算机学院
+                                            </td>
+                                            <td class="c-cell-value">
+                                                软件工程
+                                            </td>
+                                            <td class="c-cell-value">
+                                                13103456868
+                                            </td>
+                                            <td class="c-cell-value" colspan="5">
+                                                统筹项目安排，组织合作交流、训练模型
+                                            </td>
+                                        </tr>
+                                        <tr class="c-liststudent-tr">
+                                            <td class="c-cell-value">
+                                                洪子翔
+                                            </td>
+                                            <td class="c-cell-value">
+                                                1820211062
+                                            </td>
+                                            <td class="c-cell-value">
+                                                计算机学院
+                                            </td>
+                                            <td class="c-cell-value">
+                                                计算机科学与技术
+                                            </td>
+                                            <td class="c-cell-value">
+                                                18210722613
+                                            </td>
+                                            <td class="c-cell-value" colspan="5">
+                                                建立模型
+                                            </td>
+                                        </tr>
+                                        <tr class="c-liststudent-tr">
+                                            <td class="c-cell-value">
+                                                牟星宇
+                                            </td>
+                                            <td class="c-cell-value">
+                                                1120222805
+                                            </td>
+                                            <td class="c-cell-value">
+                                                计算机学院
+                                            </td>
+                                            <td class="c-cell-value">
+                                                软件工程
+                                            </td>
+                                            <td class="c-cell-value">
+                                                17358980656
+                                            </td>
+                                            <td class="c-cell-value" colspan="5">
+                                                训练、修改模型
+                                            </td>
+                                        </tr>
+                                        <tr class="c-liststudent-tr">
+                                            <td class="c-cell-value">
+                                                史立彬
+                                            </td>
+                                            <td class="c-cell-value">
+                                                1120220701
+                                            </td>
+                                            <td class="c-cell-value">
+                                                计算机学院
+                                            </td>
+                                            <td class="c-cell-value">
+                                                计算机科学与技术
+                                            </td>
+                                            <td class="c-cell-value">
+                                                13522032503
+                                            </td>
+                                            <td class="c-cell-value" colspan="5">
+                                                建立模型
+                                            </td>
+                                        </tr>
+                                        <tr class="c-liststudent-tr">
+                                            <td class="c-cell-value">
+                                                董顺心
+                                            </td>
+                                            <td class="c-cell-value">
+                                                1120222190
+                                            </td>
+                                            <td class="c-cell-value">
+                                                计算机学院
+                                            </td>
+                                            <td class="c-cell-value">
+                                                计算机科学与技术
+                                            </td>
+                                            <td class="c-cell-value">
+                                                13954556067
+                                            </td>
+                                            <td class="c-cell-value" colspan="5">
+                                                效果评估与完善
+                                            </td>
+                                        </tr>
+
+                                <tr>
+                                    <td style="width:5%;" class="c-cell-title" rowspan="2">指导教师</td>
+                                    <td class="c-cell-title" style="width:5%;">姓名</td>
+                                    <td class="c-cell-title" style="width:13%;">工号</td>
+                                    <td class="c-cell-title" style="width:13%;">学院/单位</td>
+                                    <td class="c-cell-title" style="width:13%;">职称</td>
+                                    <td class="c-cell-title" style="width:13%;">联系电话</td>
+                                    <td class="c-cell-title" colspan="5" style="width:43%;">电子邮件</td>
+                                </tr>
+                                        <tr class="c-liststudent-tr">
+                                            <td class="c-cell-value">
+                                                毛先领
+                                            </td>
+                                            <td class="c-cell-value">
+                                                6120130049
+                                            </td>
+                                            <td class="c-cell-value">
+                                                计算机学院
+                                            </td>
+                                            <td class="c-cell-value">
+                                                
+                                            </td>
+                                            <td class="c-cell-value">
+                                                15120054899
+                                            </td>
+                                            <td class="c-cell-value" colspan="5">
+                                                maoxl@bit.edu.cn
+                                            </td>
+                                        </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--  一、	基本情况 结束-->
+                <!--  二、	立项依据（可加页） 开始-->
+                <div class="c-base-info">
+                    <h4 class="c-base-info-title">
+                        二、	立项依据（可加页）
+                    </h4>
+                    <div class="c-base-info-content">
+                        <table class="c-lxyj-table">
+                            <tr>
+                                <td>
+                                                                        <div class="c-lxyj">
+                                                                            <h4 class="c-lxyj-title">
+                                                                                （1）研究目的
+                                                                            </h4>
+                                                                            <div class="c-lxyj-content">
+                                                                                
+<div>&nbsp; &nbsp; &nbsp;&nbsp;<span>本项目旨在开发一种能够在用户阅读论文时，可以根据论文作者的声音和人脸图像生成作者讲解论文的视频</span><span>的</span><span>系统</span><span>。具体目的包括：</span></div>
+<p class="x_x_x_MsoNormal"><span>1.</span><span>作者数据采集</span><span>：开发一种爬虫技术，从作者的相关网页或社交媒体平台上获取真实且贴近作者外貌的照片</span><span>,</span><span>收集作者之前的演讲视频或录制的音频</span><span>。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>2.前端展示：</span><span>利用图像处理技术生成具有良好视觉效果的</span><span>视频</span><span>框。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>3.语音合成模型设计：建立一个语音合成模型，通过音频处理技术提取作者的语音特征，确保生成的语音具有自然度和准确性</span><span>,</span><span><font face="宋体">使用作者的音频样本作为训练数据，使模型能够准确地模仿作者的语音特征。考虑使用深度学习中的生成对抗网络（</font><font face="宋体">GANs）或其他语音合成技术。</font></span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>4</span><span>.</span><span>语音驱动的视频生成</span><span>：</span><span>结合语音模态和人脸图像数据模态</span><span>，设计算法生成一段有意义、具有艺术性或实用性的视频。考虑头像框的动态效果、语音与图像之间的同步，以提升用户体验。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>5</span><span>.用户界面设计：设计用户友好的界面，允许用户方便地启动或关闭头像框中的语音朗读功能，以及调整音量和其他设置。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>6</span><span>.技术评估与优化：对生成的视频进行技术评估，包括头像生成的真实感、语音合成的自然度等。根据评估结果对各个模块进行优化。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>7</span><span>.应用推广与用户反馈：将研究成果应用到实际网页或应用程序中，收集用户反馈，根据反馈不断改进系统性能，确保系统能够满足用户的期望和需求。</span><span></span></p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-lxyj">
+                                                                            <h4 class="c-lxyj-title">
+                                                                                （2）研究内容
+                                                                            </h4>
+                                                                            <div class="c-lxyj-content">
+                                                                                
+<div>
+<p class="x_x_x_MsoNormal"><span>研究内容：</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>1.头像框生成模块：</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>&nbsp; &nbsp;爬取作者的照片数据。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>&nbsp; &nbsp;利用图像处理技术生成头像框。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>2.音频样本收集与处理模块：</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>&nbsp; &nbsp;爬取作者的演讲视频或录制音频数据。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>&nbsp; &nbsp;进行音频处理，提取语音特征。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>3.语音合成模块：</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>&nbsp; &nbsp;建立语音合成模型，使用作者音频样本进行训练。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>&nbsp; &nbsp;考虑采用生成对抗网络等深度学习技术。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>4</span><span>.视频生成模块：</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>&nbsp; &nbsp;</span><span>结合语音模态和人脸图像数据模态</span><span>生成一段视频。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>&nbsp; &nbsp;考虑头像框的动态效果、语音与图像的同步。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>5</span><span>.用户界面设计与交互模块：</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>&nbsp; &nbsp;设计用户友好的界面。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>&nbsp; &nbsp;提供启动、关闭语音朗读功能的按钮，以及音量和其他设置的调整选项。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>6</span><span>.技术评估与优化模块：</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>&nbsp; &nbsp;对生成的视频进行技术评估。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>&nbsp; &nbsp;根据评估结果对各个模块进行优化。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>7</span><span>.应用推广与用户反馈模块：</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>&nbsp; &nbsp;将系统应用到实际场景</span><span>中。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>&nbsp; &nbsp;收集用户反馈，不断改进系统性能。</span></p>
+</div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-lxyj">
+                                                                            <h4 class="c-lxyj-title">
+                                                                                （3）国、内外研究现状和发展动态
+                                                                            </h4>
+                                                                            <div class="c-lxyj-content">
+                                                                                &nbsp; &nbsp; &nbsp; &nbsp;<span>近年来，国内外在说话人生成领域取得了显著的研究进展，成功实现了生成具有真实声音和外貌的虚拟视频。这一成就的关键在于人脸关键点检测技术，广泛应用于人脸对齐、表情识别以及人脸重建等任务。此外，研究者们通过多种方法进行人脸面部重建，包括基于二维面部表示、三维人脸模型、密集运动场、音频特征、视觉特征以及神经渲染技术。在人脸和语音识别领域，已能够生成具有真实声音和说话表情的个性化视频。尽管目前主流说话人生成方法已实现了包含个性化属性和视听同步的视频生成，但在虚拟现实、人机交互和元宇宙等新兴应用场景下，仍有进一步发展的空间。尽管主流方法已能生成很多&#36924;真的音画同步的说话人视频，但目前仍存在一些问题，包括生成结果分辨率与计算资源之间的矛盾、生成速度较慢，以及由生成结果视角固定和伪照带来的信息安全问题</span><span>。这些问题也将是未来发展的潜在方向和算法优化的重点。此外，该技术已经在应用领域涉足电影制作、虚拟新闻播报、游戏制作等场景。未来预计会涌现更多发展应用场景，推动这一技术不断向前发展。</span>
+<p class="x_x_x_MsoNormal"><span></span></p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-lxyj">
+                                                                            <h4 class="c-lxyj-title">
+                                                                                （4）创新点与项目特色
+                                                                            </h4>
+                                                                            <div class="c-lxyj-content">
+                                                                                &nbsp; &nbsp; &nbsp; &nbsp;
+<h4><span>我们的项目内容主要为将</span><span>文字转换为</span><span>音频</span><span>，再将音频</span><span>和照片转换为视频，</span><span>本</span><span>项目在语音驱动领域具备独特的创新点。首先，通过语音合成技术生成个性化语音包，利用该语音包将文本转化为音频。最后，将音频与照片作为输入，创造出与语音内容同步的自然说话人脸视频，提供更为生动的论文朗读和解读功能。项目的创新之处在于利用语音合成技术生成个性化语音包，同时</span><span>使用</span><span>语音驱动作者的人脸图像</span><span>生成视频</span><span>，为用户打造综合性的视听体验。</span><span>除此之外</span><span>，</span><span><font face="宋体">本系统可以利用已有的论文</font><font face="宋体">AI问答助手提供的文字，</font></span><span>通过</span><span>文字</span><span>和原作者音频进行语音合成，结合</span><span>作者照片</span><span>，为用户生成一个个性化的视频，目的是</span><span>生动地</span><span>解释论文</span><span>，提供读者所需要的信息</span><span>。项目的应用领域聚焦于学术领域，特别是论文检索平台。这一创新将为学术交流提供更直观、个性化的体验，有独特的应用前景。</span><span></span></h4>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-lxyj">
+                                                                            <h4 class="c-lxyj-title">
+                                                                                （5）技术路线、拟解决的问题及预期成果
+                                                                            </h4>
+                                                                            <div class="c-lxyj-content">
+                                                                                
+<p class="x_x_x_MsoNormal"><span>技术路线：</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>本课题主要用于阅读科技论文场景。基本思路是：根据作者语音和文本内容，合成近乎真实的音频，并结合作者的人脸图像，生成生动自然的作者讲解论文的视频。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>音频特征包驱动面部图像控制分为两部分：一是提取语音特征，利用深度学习的技术生成个性化的声音。二是利用深度学习的技术，以语音音频和人脸图像为条件，生成动态的语音同步的说话人脸视频。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>拟解决的问题：</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>关键问题一：数据收集</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>采集尽可能多的论文作者的音视频数据，对作者面部图像、片段音频信息进行特征提取。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>关键问题二：语音合成</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>根据收集的数据，训练语音合成模型，以生成符合作者音色的自然的语音。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>关键问题三：语音驱动的视频合成</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>将生成的语音与面部图像驱动程序及论文讲解的文本内容相关联，生成作者动态讲解论文的视频。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>问题与对策：</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>1.使用爬虫程序收集作者的照片和音视频资料时，要注意所收集资料的清晰度和准确度，要收集大量的数据来矫正模型。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>2.针对各文种发音方式的不同，各学科专业的发音不同，各学科专业的发音不同等问题，本算法合成中文普通话以及采用专业学科语音，根据论文讲解需要，生成抑扬顿挫的真实语音。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>3.生成视频时，注意保持说话人面部表情的稳定性、神态的自然性、唇形的准确性，还要注意视频整体的清晰度。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>预期成果：</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span><font face="宋体">读者使用论文检索平台时，点开一篇论文后，屏幕右上角就显示论文作者图像。此头像一般从论文内得到，也可能是从官方网站爬虫爬取到的作者照片。后将使用指导老师提供的论文信息问答文本生成程序及本课题成果</font><font face="宋体">——语音驱动视频程序，呈现作者声音和面容讲解的论文内容。</font></span><span></span></p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-lxyj">
+                                                                            <h4 class="c-lxyj-title">
+                                                                                （6）项目研究进度安排
+                                                                            </h4>
+                                                                            <div class="c-lxyj-content">
+                                                                                
+<p class="x_x_x_MsoNormal"><span>2023年12月25日前：小组完成立项报告，并通过审核。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>2024年2月1日前：小组成员查找语音驱动视频算法的相关资料、文献，增强认识与理解。同时进行交流研讨，确定具体的研究步骤、分工。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>2024年3月1日前：初步完成模型设计，进行初步测试。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>2024年5月1日前：分析测试结果，对模型不断优化。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>2024年7月1日前：对研究进行扩展和补充。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>2024年9月1日前: 完成论文撰写工作和结项报告。</span><span></span></p>
+
+                                                                            </div>
+                                                                        </div>
+                                                        <div class="c-lxyj">
+                                                            <h4 class="c-lxyj-title">
+                                                                （7）已有基础
+                                                            </h4>
+                                                            <div class="c-lxyj-content">
+                                                                        <div class="c-lxyj-sub">
+                                                                            <div class="c-lxyj-sub-title">1.与本项目有关的研究积累和已取得的成绩</div>
+                                                                            <div class="c-lxyj-sub-contet">
+                                                                                
+<p>&nbsp; &nbsp; &nbsp;<span>在语音驱动视频算法方面有相对成熟的研究案例，以及大量的文献资料。文献包括对现有方法、技术的分析。以及对最新研究动向的追踪。</span></p>
+<p class="x_x_x_MsoNormal"><span>在研究思路方面，通过与老师的交流及小组成员的讨论，本课题组初步确定了研究步骤与研究内容，组员已具备较好的文献检索能力、文献综述能力。</span><span></span></p>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="c-lxyj-sub">
+                                                                            <div class="c-lxyj-sub-title">2.已具备的条件，尚缺少的条件及解决方法</div>
+                                                                            <div class="c-lxyj-sub-contet">
+                                                                                
+<p class="x_x_x_MsoNormal"><span><font face="宋体">已具备的条件：</font><font face="宋体">&nbsp;</font></span><span></span></p>
+<p class="x_x_x_MsoNormal"><span><font face="宋体">（</font><font face="宋体">1）指导老师为本课题组提供前沿的文献和研究方法的指引。</font></span><span></span></p>
+<p class="x_x_x_MsoNormal"><span><font face="宋体">（</font><font face="宋体">2）本课题组成员已具有一定的计算机相关知识和自学能力。</font></span><span></span></p>
+<p class="x_x_x_MsoNormal"><span><font face="宋体">（</font><font face="宋体">3）本课题组成员具有较强的团队合作能力，具有较高的研究热情。</font></span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>尚缺少的条件及解决方法：</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>课题组成员在实证论文写作方面缺乏经验，对语音驱动视频技术和应用了解不深，欠缺完成工程的经验和能力。</span><span></span></p>
+<p class="x_x_x_MsoNormal"><span>解决方法：课题组成员大量阅读相关文献，咨询指导老师，互帮互助，积极实践，在实践中不断学习。</span></p>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                            </div>
+                                                        </div>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!--  二、	立项依据（可加页） 结束-->
+                <!--  三、	经费预算 开始-->
+                <div class="c-base-info">
+                    <h4 class="c-base-info-title">
+                        三、	经费预算
+                    </h4>
+                    <div class="c-base-info-content">
+                                            <table class="c-jfys-table">
+                                                <thead>
+                                                    <tr class="text-center">
+                                                        <th rowspan="2">
+                                                            开支科目
+                                                        </th>
+                                                        <th rowspan="2">
+                                                            预算经费（元）
+                                                        </th>
+                                                        <th rowspan="2">
+                                                            主要用途
+                                                        </th>
+                                                        <th colspan="2">
+                                                            阶段下达经费计划（元）
+                                                        </th>
+                                                    </tr>
+                                                    <tr class="text-center">
+                                                        <th>前半阶段</th>
+                                                        <th>后半阶段</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        预算经费总额
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        3000.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        完成项目总体
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        1500.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        1500.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        1. 业务费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        1000.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        完成业务
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        500.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        500.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        （1）计算、分析、测试费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        200.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        完成计算、分析、测试
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        100.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        100.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        （2）能源动力费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        100.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        能源动力
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        50.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        50.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        （3）会议、差旅费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        500.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        差旅费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        250.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        250.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        （4）文献检索费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        100.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        文献检索
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        50.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        50.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        （5）论文出版费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        100.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        论文出版
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        50.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        50.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        2. 仪器设备购置费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        1000.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        仪器设备购置
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        500.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        500.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        3. 实验装置试制费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        500.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        实验装置试制
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        250.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        250.00
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        4. 材料费
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        500.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        材料购买
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        250.00
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        250.00
+                                                                    </td>
+                                                                </tr>
+                                                            <tr class="text-center">
+                                                                <td>
+                                                                    <b>学校拨款</b>
+                                                                </td>
+                                                                <td colspan="4">
+                                                                    
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="text-center">
+                                                                <td>
+                                                                    <b>财政拨款</b>
+                                                                </td>
+                                                                <td colspan="4">
+                                                                    
+                                                                </td>
+                                                            </tr>
+
+                                                </tbody>
+                                            </table>
+
+                    </div>
+                </div>
+                <!--  三、	经费预算 结束-->
+                <!--  四、	项目组成员签名 开始-->
+                <div class="c-base-info">
+                    <h4 class="c-base-info-title">
+                        四、	项目组成员签名
+                    </h4>
+                    <div class="c-base-info-content">
+                        <table class="c-yijian-table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <div class="c-yijian-content">
+                                                &nbsp;
+                                            </div>
+                                            <div class="c-yijian-content">
+                                                &nbsp;
+                                            </div>
+                                            <div class="c-yijian-content">
+                                                &nbsp;
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--  四、	项目组成员签名 结束-->
+                <!--  五、	指导教师意见 开始-->
+                <div class="c-base-info">
+                    <h4 class="c-base-info-title">
+                        五、	指导教师意见
+                    </h4>
+                    <div class="c-base-info-content">
+                        <table class="c-yijian-table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div>
+                                                        <div class="c-yijian-content">
+                                                            同意！
+                                                        </div>
+
+                                            <div class="c-yijian-content">
+                                                &nbsp;
+                                            </div>
+                                            <div class="c-yijian-sign">
+                                                <div>导师（签章）：</div>
+                                                <div>&nbsp;&nbsp;年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日&nbsp;&nbsp;</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--  五、	指导教师意见 结束-->
+                <!--  六、	院系推荐意见  开始-->
+                <div class="c-base-info">
+                    <h4 class="c-base-info-title">
+                        六、	院系推荐意见
+                    </h4>
+                    <div class="c-base-info-content">
+                        <table class="c-yijian-table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div>
+                                                                        <div class="c-yijian-content">
+                                                                            &nbsp;
+                                                                        </div>
+                                                                        <div class="c-yijian-content">
+                                                                            &nbsp;
+                                                                        </div>
+
+                                            <div class="c-yijian-content">
+                                                &nbsp;
+                                            </div>
+                                            <div class="c-yijian-sign">
+                                                <div>盖   章：</div>
+                                                <div>&nbsp;&nbsp;年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日&nbsp;&nbsp;</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--  六、	院系推荐意见  结束-->
+                <!--  七、	学校推荐意见   开始-->
+                <div class="c-base-info">
+                    <h4 class="c-base-info-title">
+                        七、	学校推荐意见
+                    </h4>
+                    <div class="c-base-info-content">
+                        <table class="c-yijian-table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div>
+                                                                        <div class="c-yijian-content">
+                                                                            &nbsp;
+                                                                        </div>
+                                                                        <div class="c-yijian-content">
+                                                                            &nbsp;
+                                                                        </div>
+
+                                            <div class="c-yijian-content">
+                                                &nbsp;
+                                            </div>
+                                            <div class="c-yijian-sign">
+                                                <div>盖   章：</div>
+                                                <div>&nbsp;&nbsp;年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日&nbsp;&nbsp;</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--  七、	学校推荐意见   结束-->
+            </div>
+        </div>
+        <div>
+            <table id="page-info-container" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                        <div style="mso-element:header;" id="page-info-container--header">
+                            <p class="MsoHeader">
+                                <img src="http://cxcy.bit.edu.cn/xm/assets/img/item_declare_exportword_schoollogo_header.png" width="180" height="45" />
+                            </p>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="mso-element:footer;" id="page-info-container--footer">
+                            <p class="MsoFooter" style="text-align:center;">
+                                <span style="mso-field-code:PAGE"><span style="mso-no-proof:yes"></span></span> / <span style="mso-field-code:NUMPAGES"></span>
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+    </div>
+</body>
+</html>
